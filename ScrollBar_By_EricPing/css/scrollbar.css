@@ -1,0 +1,40 @@
+/*
+
+Developed By Eric Ping
+Follw me on http://sudo.tw
+
+*/
+
+body{
+	background: orange;
+}
+.box{
+	background: white;
+	margin: 20px 100px 0px 15px;
+	position: relative;
+	display: block;
+	width:300px;
+	height:280px;
+	overflow:hidden;
+}
+.box > .container{
+	width:95%;	
+}
+.box > .container > .content{	
+	position: relative;	
+}
+.box > .scroll{
+	width:5%;
+	display: block;
+	background: black;
+	position: absolute;
+	right:0;
+	height:100%;
+}
+.scroll > .bar{
+	width:100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: gray;
+}
